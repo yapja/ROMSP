@@ -6,6 +6,7 @@ An automated script for claiming daily login reward for [Ragnarok MSP Yggdrasil 
 
 1. Windows
 2. Firefox ≥ 60
+3. 7-Zip
 
 # Usage
 
