@@ -6,7 +6,7 @@ import time
 # Starts headless Firefox and redirect to Yggdrail Daily Login page
 # service_log_path disables geckodriver logging
 options = Options()
-# options.headless = True
+options.headless = True
 driver = webdriver.Firefox(options = options, service_log_path='NUL')
 driver.get("https://activities2.roextreme.com/dl/ragnarok-msp/ragnarok-msp-daily-login-march-2020")
 
